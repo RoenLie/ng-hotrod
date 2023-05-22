@@ -1,4 +1,7 @@
-import NavigationService from './navigation.service';
+import angular from 'angular';
+
+import NavigationService from './navigation.service.js';
+
 
 const ServicesModule = angular
 	.module('services', [])

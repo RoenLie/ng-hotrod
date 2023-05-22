@@ -3,7 +3,6 @@
 .cache
 .git
 node_modules
-.vscode
 .idea
 .settings
 *.log

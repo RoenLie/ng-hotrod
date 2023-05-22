@@ -1,7 +1,5 @@
 class NavigationService {
-	constructor() {
-		this.currentPageTitle = 'ng-hotrod';
-	}
+	public currentPageTitle = 'ng-hotrod';
 }
 
 export default NavigationService;

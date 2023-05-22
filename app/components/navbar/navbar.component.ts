@@ -1,5 +1,6 @@
-import controller from './navbar.controller';
-import './navbar.scss';
+import './navbar.styles.scss';
+
+import controller from './navbar.controller.js';
 
 const navbarComponent = {
 	bindings: {},
@@ -10,9 +11,9 @@ const navbarComponent = {
 					<img class="ng-hotrod-logo" ng-src="{{ $ctrl.ngHotrodLogo }}" alt="GitHub">
 					<h2 class="active-page-name" md-truncate>{{ $ctrl.NavigationService.currentPageTitle }}</h2>
 				</div>
-				<a 
-					class="github-link" href="https://github.com/fyodorio/ng-hotrod" 
-					layout="row" 
+				<a
+					class="github-link" href="https://github.com/fyodorio/ng-hotrod"
+					layout="row"
 					layout-align="center center">
 					<img ng-src="{{ $ctrl.githubLogo }}" alt="GitHub">
 					<div>GitHub</div>

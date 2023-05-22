@@ -1,4 +1,7 @@
-import pageHomeComponent from './page-home.component';
+import angular from 'angular';
+
+import pageHomeComponent from './page-home.component.js';
+
 
 const pageHomeModule = angular
 	.module('pageHome', [])

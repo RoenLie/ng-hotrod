@@ -1,14 +1,16 @@
-import controller from './page-home.controller';
-import './page-home.scss';
+import './page-home.styles.scss';
+
+import controller from './page-home.controller.js';
+
 
 const pageHomeComponent = {
 	bindings: {},
 	template: `
 		<md-content class="page-home">
 			<h2 class="md-display-1">Modern starter for AngularJS + Angular Material + Vite</h2>
-			<img 
-				class="hero-img" 
-				src="https://res.cloudinary.com/fyodorio/image/upload/v1611994660/my-logos/hotrod-logo_rhkfxy.jpg" 
+			<img
+				class="hero-img"
+				src="https://res.cloudinary.com/fyodorio/image/upload/v1611994660/my-logos/hotrod-logo_rhkfxy.jpg"
 				alt="ng-hotrod">
 			<h3 class="md-title">FEATURING:</h3>
 			<div layout="column" layout-align="center center">

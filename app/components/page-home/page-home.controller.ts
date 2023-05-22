@@ -1,9 +1,10 @@
 class PageHomeController {
-	constructor(NavigationService) {
+	public $inject = ['NavigationService'];
+	public NavigationService: any;
+	constructor(NavigationService: any) {
 		this.NavigationService = NavigationService;
 	}
 }
 
-PageHomeController.$inject = ['NavigationService'];
 
 export default PageHomeController;
